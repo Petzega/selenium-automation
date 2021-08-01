@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Iniciar sesion en pagina Your Store",
+        "description": "",
+        "id": "login-pagina-e-commerce-your-store;iniciar-sesion-en-pagina-your-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3960853300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "El usuario existe en la pagina Your Store",
+            "match": {
+              "location": "T001_LoginYourStore.el_usuario_existe_en_la_pagina_Your_Store()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 353200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hace click en la opcion My Account en el navbar",
+            "match": {
+              "location": "T001_LoginYourStore.hace_click_en_la_opcion_My_Account_en_el_navbar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47040200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Selecciona la opcion Login e ingresa sus credenciales",
+            "match": {
+              "location": "T001_LoginYourStore.selecciona_la_opcion_Login_e_ingresa_sus_credenciales()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Se inicia sesion correctamente",
+            "match": {
+              "location": "T001_LoginYourStore.se_inicia_sesion_correctamente()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login pagina e-commerce Your Store",
+    "description": "Como usuario de compra necesito loguearme en la pagina Your Store",
+    "id": "login-pagina-e-commerce-your-store",
+    "keyword": "Feature",
+    "uri": "F001_LoginYourStore.feature"
+  }
+]

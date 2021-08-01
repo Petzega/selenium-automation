@@ -1,0 +1,22 @@
+{
+  "name": "selenium-automation",
+  "version": "1.0.0",
+  "description": "framework selenium automation",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petzega/selenium-automation.git"
+  },
+  "author": "Petzega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Petzega/selenium-automation/issues"
+  },
+  "homepage": "https://github.com/Petzega/selenium-automation#readme",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}
