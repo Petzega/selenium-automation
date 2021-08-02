@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 4,
+        "line": 5,
         "name": "Iniciar sesion en pagina Your Store",
         "description": "",
         "id": "login-pagina-e-commerce-your-store;iniciar-sesion-en-pagina-your-store",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3960853300,
+              "duration": 3703340800,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "El usuario existe en la pagina Your Store",
             "match": {
               "location": "T001_LoginYourStore.el_usuario_existe_en_la_pagina_Your_Store()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 353200,
+              "duration": 332500,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Hace click en la opcion My Account en el navbar",
             "match": {
               "location": "T001_LoginYourStore.hace_click_en_la_opcion_My_Account_en_el_navbar()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 47040200,
+              "duration": 302300,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "Selecciona la opcion Login e ingresa sus credenciales",
             "match": {
               "location": "T001_LoginYourStore.selecciona_la_opcion_Login_e_ingresa_sus_credenciales()"
@@ -48,15 +48,21 @@
           },
           {
             "result": {
-              "duration": 76600,
+              "duration": 95100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "Se inicia sesion correctamente",
             "match": {
               "location": "T001_LoginYourStore.se_inicia_sesion_correctamente()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
           }
         ]
       }

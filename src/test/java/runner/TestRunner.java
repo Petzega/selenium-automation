@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         features = "src/test/java/features",
         glue = {"tests"},
         plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:results/cucumber-reports/report.html",
-                "json:results/cucumber-reports/report.json"}
+                "json:results/cucumber-reports/report.json"},
+        tags = {"@SmokeTest"}
 )
 
 public class TestRunner {

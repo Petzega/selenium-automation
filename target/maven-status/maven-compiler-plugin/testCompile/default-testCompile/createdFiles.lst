@@ -1,2 +1,4 @@
+helpers\Hook.class
 tests\T001_LoginYourStore.class
 runner\TestRunner.class
+utilities\GlobalVariable.class
